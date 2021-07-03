@@ -42,6 +42,8 @@ pip3 install -r requirments.txt
 最初のテストは、2021年７月2日に実行しました。
 設定：bath size 15, validation_split 0.1, Callbacks (EarlyStopping "val_loss" patience=5)
 
+
+![ScreenShot](/pics/Accuracy_20210703.png)
 <img src="/pics/Accuracy_20210703.png" width="600">
 <img src="/pics/Loss_20210703.png" width="600">
 
