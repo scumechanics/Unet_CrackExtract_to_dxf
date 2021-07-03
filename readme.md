@@ -17,8 +17,6 @@ UNET model based for cell segmentation trained on the [deepcrack data set](https
 <img src="/pics/Process.png" width="600">
 
 
-
-
 ## Code
 * U_NET_CRACKS_20210702_DeepCrackDataset.ipynb  [Modeling tranning and testing]
 * Crack_to_dxf.ipynb [Crack extraction from saved model]
@@ -52,8 +50,8 @@ Model source Dr. Sreenivas Bhattiprolu  [U-net](https://github.com/bnsreenu/pyth
 ### Models accuracy and loss
 Test run performet 20210702 bath size 15, validation_split 0.1  with a EarlyStopping call back for val_loss at patience=5
 
-<img src="/pics/Accuray_20210703.png" width="600">
-<img src="/pics/loss_20210703.png" width="600">
+<img src="/pics/Accuracy_20210703.png" width="600">
+<img src="/pics/Loss_20210703.png" width="600">
 
 #### Prediction test 
 <img src="/pics/ThreeModelTest_eng_20210702.png" width="600">
