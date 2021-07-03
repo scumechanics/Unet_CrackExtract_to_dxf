@@ -1,6 +1,6 @@
 [英語版 README はこちら]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/readme.md")
 <br/>
-作家: Daniel James Jarviws 
+作家: Daniel James Jarvis
 <br/>
 メール: jarvissan21@gmail.com
 
