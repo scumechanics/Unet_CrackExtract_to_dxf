@@ -39,8 +39,7 @@ pip3 install -r requirments.txt
 ## Model 
 
 Model source Dr. Sreenivas Bhattiprolu  [U-net](https://github.com/bnsreenu/python_for_microscopists/blob/master/074-Defining%20U-net%20in%20Python%20using%20Keras.py), altenred to for black and white images and tested at diffrent convolution (Standard, small(x0.5), large(x2))
-<details>
-<summary>Click to show model summary 
+<details>Click to show model summary 
 ```bash
 
 Model: "model"
@@ -140,7 +139,7 @@ Trainable params: 1,940,817
 Non-trainable params: 0
 
 ```
-</summary>
+
 </details>
 
 
