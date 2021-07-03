@@ -40,7 +40,8 @@ pip3 install -r requirments.txt
 
 Model source Dr. Sreenivas Bhattiprolu  [U-net](https://github.com/bnsreenu/python_for_microscopists/blob/master/074-Defining%20U-net%20in%20Python%20using%20Keras.py), altenred to for black and white images and tested at diffrent convolution (Standard, small(x0.5), large(x2))
 <details>Click to show model summary 
-    ```bash
+```bash
+
 Model: "model"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -136,7 +137,8 @@ conv2d_18 (Conv2D)              (None, 128, 128, 1)  17          conv2d_17[0][0]
 Total params: 1,940,817
 Trainable params: 1,940,817
 Non-trainable params: 0
-    ```
+
+```
 </details>
 
 
@@ -144,8 +146,8 @@ Non-trainable params: 0
 ### Models accuracy and loss
 Test run performet 20210702 bath size 15, validation_split 0.1  with a EarlyStopping call back for val_loss at patience=5
 
-<img src="/pics/Accuracy_20210703.png" width="600">
-<img src="/pics/Loss_20210703.png" width="600">
+<img src="/pics/Accuracy_20210703.png" >
+<img src="/pics/Loss_20210703.png" >
 
 #### Prediction test 
 <img src="/pics/ThreeModelTest_eng_20210702.png" width="600">
