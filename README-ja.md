@@ -1,5 +1,7 @@
-[英語版 README はこちら]("README.md")
+[英語版 README はこちら]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/readme.md")
+<br/>
 作家: Daniel James Jarviws 
+<br/>
 メール: jarvissan21@gmail.com
 
 # Unet 亀裂の抽出からdxfのファイルに変換
@@ -17,9 +19,12 @@ UNETの細胞のセグメンテーションを基づいて、[deepcrack](https:/
 
 
 ## コード
-* U_NET_CRACKS_20210702_DeepCrackDataset.ipynb  [モデルの訓練とテスト]
-* Crack_to_dxf.ipynb [亀裂を抽出し、dxfへ変換する]
-* Create_Train_data.ipynb [データセットを作成する]
+* [U_NET_CRACKS_20210702_DeepCrackDataset.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/U_NET_CRACKS_20210702_DeepCrackDataset.ipynb)  
+モデルの訓練とテスト
+* [Crack_to_dxf.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/Crack_to_dxf.ipynb) 
+亀裂を抽出し、dxfへ変換する
+* [Create_Train_data.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/Create_Train_data.ipynb) 
+データセットを作成する
 
 ## セットアップ
 GoogleColabでロードすれば、ezdxfというモジュールだけインストールしなければなりません。簡単ですね。
@@ -59,8 +64,6 @@ Create_Train_data.ipynbのコードでは、自分の訓練やテストのデー
 ## Usage 
 
 ###Crack_to_dxf.ipynb 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
-
 
 亀裂の抽出する使用し方
 * モデルの保存先を確認 

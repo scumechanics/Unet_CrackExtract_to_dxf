@@ -1,6 +1,8 @@
 
-[日本語版 README はこちら]("README-ja.md")
+[日本語版 README はこちら]("https://github.com/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/README-ja.md")
+<br/>
 Author: Daniel James Jarviws 
+<br/>
 Email: jarvissan21@gmail.com
 
 # Unet crack extract to dxf file.
@@ -8,7 +10,7 @@ Email: jarvissan21@gmail.com
 UNET model based for cell segmentation trained on the [deepcrack data set](https://github.com/yhlleo/DeepCrack). Model detect crack region, extracts contours then converts those contours in dxf files for CAD use. 
 
 - [X] Code notebooks created 
-- [ ] 日本語版のREADME
+- [X] 日本語版のREADME
 - [ ] Longer model train 
 - [ ] Code to importable module
 - [ ] Non DeepCrack training, able to deal with larger images, diffrenataion from tiles and cracks around odd objects 
@@ -18,9 +20,12 @@ UNET model based for cell segmentation trained on the [deepcrack data set](https
 
 
 ## Code
-* U_NET_CRACKS_20210702_DeepCrackDataset.ipynb  [Modeling tranning and testing]
-* Crack_to_dxf.ipynb [Crack extraction from saved model]
-* Create_Train_data.ipynb [Dataset creation]
+* [U_NET_CRACKS_20210702_DeepCrackDataset.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/U_NET_CRACKS_20210702_DeepCrackDataset.ipynb)  
+Model training and testing
+* [Crack_to_dxf.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/Crack_to_dxf.ipynb) 
+Extract crake and convert to dxf
+* [Create_Train_data.ipynb](https://colab.research.google.com/github/JarvisSan22/Unet_CrackExtract_to_dxf/blob/master/Create_Train_data.ipynb) 
+Create dataset 
 
 ## Setup
 
@@ -58,11 +63,10 @@ Create_Train_data.ipynb allows the creation of new traning and test data from cr
 ## Usage 
 
 ###Crack_to_dxf.ipynb 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
 
 
 Walk through 
 * Check model save location 
 * Load image
-* If image is X times larger than training data, image is split into smaller sections (X = 4 standard), then recontructed at the end 
-* Extract Data 
+* If image is X times larger than training data, image is split into smaller sections (X = 4 standard). From each section cracks will be extracted then all the crack contours will be combined at the end
+* Extracted crack contours converted to dxf file. 
